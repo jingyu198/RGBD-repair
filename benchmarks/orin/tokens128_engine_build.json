@@ -1,0 +1,23 @@
+{
+  "shape": [
+    1,
+    3,
+    36,
+    64
+  ],
+  "export": {
+    "skipped": false,
+    "export_ms": 15060.088962000009,
+    "patched_attention_modules": 24,
+    "patched_encoder": true
+  },
+  "int8": {
+    "skipped": false,
+    "engine": "trt/lingbot_tokens128_36x64_int8.engine",
+    "build_ms": 1327102.116076001,
+    "calibration_samples": 90,
+    "calib_cache": "trt/lingbot_tokens128_36x64_int8_calib.cache",
+    "trtexec_throughput_fps": 46.8571,
+    "trtexec_gpu_compute_ms": 21.2486
+  }
+}

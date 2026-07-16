@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Models and device-specific binaries
+*.engine
+*.onnx
+*.plan
+*.bin
+*.cache
+*.pt
+*.pth
+*.safetensors
+
+# Raw data and generated outputs
+*.npz
+*.bag
+*.db3
+output/
+outputs/
+tmp/
+
+# Videos are published as GitHub Release assets
+*.mp4
+*.avi
+*.mov

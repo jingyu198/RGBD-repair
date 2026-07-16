@@ -1,0 +1,11 @@
+device: orin
+engine: lingbot_tokens128_36x64_int8.engine
+precision: int8
+input_shape: [1, 3, 36, 64]
+num_tokens: 128
+max_depth_m: 50.0
+calibration: entropy_ptq
+calibration_samples: 90
+per_frame_metric_calibration: false
+publish_full_lingbot_depth: true
+mc_output_shape: [18, 32]
