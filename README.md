@@ -1,5 +1,7 @@
 # RGBD-repair
 
+[中文](README.md) | [English](README_EN.md)
+
 基于 LingBot-Depth 的 RGB-D 深度图修复实验记录，包含最终 calibrated local fusion 方案、三个离线 Demo，以及机器人 Orin 上的 TensorRT INT8 历史部署版本。
 
 > 核心原则：保留可靠的原始米制深度，只在不可靠区域使用校准后的 LingBot 深度。
